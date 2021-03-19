@@ -10123,6 +10123,8 @@ h3 {
 }
 .masthead-avatar {
     border-radius: 150px;
+    border: 5px solid #2c3e4f;
+    border
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -10259,4 +10261,22 @@ form .row:first-child .floating-label-form-group {
 
 .project-thumbnail {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Library {
+    background: url('https://i.imgur.com/WlyqnvE.jpg?1');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#Library:hover {
+    background: url('https://i.imgur.com/kCJwgZZ.jpg');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
